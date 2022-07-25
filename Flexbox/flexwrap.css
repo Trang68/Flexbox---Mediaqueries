@@ -1,0 +1,13 @@
+.container {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  background-color: aquamarine;
+}

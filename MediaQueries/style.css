@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hh {
+  margin: 50px 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-section {
+  width: 50%;
+  padding: 0 5%;
+  border: 1px solid black;
+}
+.image-section {
+  width: 50%;
+  text-align: center;
+  border: 1px solid black;
+}
+.image-section img {
+  width: 450;
+}
+
+/* --Always write Media Queries at bottom of screen-- */
+/* Desktop and laptop ---- from 1024 onwards */
+@media (max-width: 1024px) {
+  .text-section {
+    color: green;
+    background-color: aliceblue;
+  }
+}
+/* tablets and ipads ---- between 768 to 1023px */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .text-section {
+    text-transform: capitalize;
+  }
+  body {
+    background-color: chartreuse;
+  }
+}
+
+/* Mobile and Smart phone 0-768px */
+@media (max-width: 768px) {
+  h1 {
+    color: blue;
+  }
+  .container {
+    display: block;
+  }
+  .text-section {
+    width: 100%;
+  }
+  .image-section {
+    width: 100%;
+  }
+  .image-section img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+}
+/* Mobile and Smart phone 0-468px */
+@media (max-width: 468px) {
+  h1 {
+    color: orange;
+    font-size: 20px;
+  }
+  /* .container {
+    display: block;
+  }
+  .text-section {
+    width: 100%;
+  }
+  .image-section {
+    width: 100%;
+  } */
+  .image-section img {
+    padding: 15px;
+  }
+}

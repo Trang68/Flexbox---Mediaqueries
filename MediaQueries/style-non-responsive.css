@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hh {
+  margin: 50px 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.container {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-section {
+  width: 50%;
+  padding: 0 5%;
+  text-align: justify;
+  line-height: 1.7;
+}
+.image-section {
+  width: 50%;
+  padding: 0;
+  text-align: center;
+}
+
+.image-section img {
+  width: 450px;
+}

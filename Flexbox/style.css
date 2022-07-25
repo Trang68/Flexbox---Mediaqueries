@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: gold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container div {
+  padding: 15px;
+  border: 1px solid red;
+  width: 30%;
+}
+
+.box1 {
+  background-color: antiquewhite;
+}
+
+.box2 {
+  background-color: forestgreen;
+}
+.box3 {
+  background-color: salmon;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
